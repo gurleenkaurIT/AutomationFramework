@@ -22,6 +22,7 @@ public class MyWishListPageTest extends TestBase {
 	public void setup() {
 		initialise();
 		loginPage = new AccountLoginPage();
+		
 		myAccountPage = loginPage.loginToMyAccount("gurleen11296@gmail.com", "Password123");
 	}
 
