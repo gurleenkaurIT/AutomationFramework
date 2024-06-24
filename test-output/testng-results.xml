@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-24T18:33:35 GMT-04:00" name="Default suite" finished-at="2024-06-24T18:34:08 GMT-04:00" duration-ms="32842">
+    <groups>
+    </groups>
+    <test started-at="2024-06-24T18:33:35 GMT-04:00" name="Default test" finished-at="2024-06-24T18:34:08 GMT-04:00" duration-ms="32842">
+      <class name="com.navneenAutomationLabs.PageTests.MyWishListPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:35 GMT-04:00" name="setup" finished-at="2024-06-24T18:33:42 GMT-04:00" duration-ms="7003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addLaptopToTheWishList()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:42 GMT-04:00" name="addLaptopToTheWishList" finished-at="2024-06-24T18:33:44 GMT-04:00" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLaptopToTheWishList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:44 GMT-04:00" name="closeBrowser" finished-at="2024-06-24T18:33:45 GMT-04:00" duration-ms="464" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:45 GMT-04:00" name="setup" finished-at="2024-06-24T18:33:51 GMT-04:00" duration-ms="6016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addMacbookToTheWishList()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:51 GMT-04:00" name="addMacbookToTheWishList" finished-at="2024-06-24T18:33:53 GMT-04:00" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMacbookToTheWishList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:53 GMT-04:00" name="closeBrowser" finished-at="2024-06-24T18:33:53 GMT-04:00" duration-ms="328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:53 GMT-04:00" name="setup" finished-at="2024-06-24T18:33:58 GMT-04:00" duration-ms="5603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeLaptopFromTheWishList()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:33:58 GMT-04:00" name="removeLaptopFromTheWishList" finished-at="2024-06-24T18:34:00 GMT-04:00" depends-on-methods="com.navneenAutomationLabs.PageTests.MyWishListPageTest.addLaptopToTheWishList" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeLaptopFromTheWishList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:34:00 GMT-04:00" name="closeBrowser" finished-at="2024-06-24T18:34:00 GMT-04:00" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:34:00 GMT-04:00" name="setup" finished-at="2024-06-24T18:34:06 GMT-04:00" duration-ms="5788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeMacbookFromTheWishList()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:34:06 GMT-04:00" name="removeMacbookFromTheWishList" finished-at="2024-06-24T18:34:08 GMT-04:00" depends-on-methods="com.navneenAutomationLabs.PageTests.MyWishListPageTest.addMacbookToTheWishList" duration-ms="1654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMacbookFromTheWishList -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.navneenAutomationLabs.PageTests.MyWishListPageTest@47d9a273]" started-at="2024-06-24T18:34:08 GMT-04:00" name="closeBrowser" finished-at="2024-06-24T18:34:08 GMT-04:00" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.navneenAutomationLabs.PageTests.MyWishListPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
