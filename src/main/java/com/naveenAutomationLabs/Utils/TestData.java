@@ -22,8 +22,11 @@ public class TestData extends TestBase {
 	public static final String firstName = "Gurleen";
 	public static final String lastName = "kaur";
 	public static final String telephone = "5149876543";
-	public static final String registerEmail = "Gurleen" + RandomDataGeneratorUtils.generateRandomInteger()
+	public static final String registerEmailOne = "Gurleen" + RandomDataGeneratorUtils.generateRandomInteger()
 			+ "@gmail.com";
+	public static final String registerEmailTwo = "Gurleen" + RandomDataGeneratorUtils.generateRandomInteger()
+	+ "@gmail.com";
+	public static final String registerPassword = "Password123" + RandomDataGeneratorUtils.generateRandomInteger();
 
 	// Enter New Address
 	public static final String newAddressFirstName = "Gurleen1234";
@@ -33,13 +36,13 @@ public class TestData extends TestBase {
 	public static final String postalCode = "L6Y 4K4";
 	public static final String country = "Canada";
 	public static final String regionOrState = "Ontario";
-	
+
 	// Affiliate Account Information
 	public static final String companyName = "Navneen Automation";
 	public static final String taxId = "123765489";
-	
+
 	// Bank Details
 	public static final String accountName = "Gurleen Kaur";
 	public static final String accountNumber = "1237654899";
-	
+
 }

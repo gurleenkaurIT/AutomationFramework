@@ -24,8 +24,8 @@ public class RegisterAccountPageTest extends TestBase {
 	@Test
 	public void createNewAccountWithSubscribingNewsletter() {
 		registerAccountPage = loginPage.clickContinueLink();
-		registerAccountPage.fillDetailsToRegisterAccount(TestData.firstName, TestData.lastName, TestData.registerEmail,
-				TestData.telephone, TestData.password, TestData.password);
+		registerAccountPage.fillDetailsToRegisterAccount(TestData.firstName, TestData.lastName, TestData.registerEmailOne,
+				TestData.telephone, TestData.registerPassword, TestData.registerPassword);
 		registerAccountPage.clickYesSubscribeRadioBtn();
 		registerAccountPage.clickContinueBtn();
 		String accountCreatedSuccessText = registerAccountPage.getSuccessBannerText();
@@ -36,8 +36,8 @@ public class RegisterAccountPageTest extends TestBase {
 	@Test
 	public void createNewAccountWithNoSubscribingNewsletter() {
 		registerAccountPage = loginPage.clickContinueLink();
-		registerAccountPage.fillDetailsToRegisterAccount(TestData.firstName, TestData.lastName, TestData.registerEmail,
-				TestData.telephone, TestData.password, TestData.password);
+		registerAccountPage.fillDetailsToRegisterAccount(TestData.firstName, TestData.lastName, TestData.registerEmailTwo,
+				TestData.telephone, TestData.registerPassword, TestData.registerPassword);
 		registerAccountPage.clickNoSubscribeRadioBtn();
 		registerAccountPage.clickContinueBtn();
 		String accountCreatedSuccessText = registerAccountPage.getSuccessBannerText();
